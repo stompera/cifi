@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "CIFI"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: groco.qmd
+        text: GROCO
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+

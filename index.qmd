@@ -1,0 +1,9 @@
+---
+title: "CIFI"
+---
+
+This is a Quarto website.
+
+Link to [GROCO](groco.qmd)
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
