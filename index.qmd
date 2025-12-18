@@ -2,13 +2,12 @@
 title: "Citizenship and Finance (CIFI)"
 ---
 
-Welcome to the homepage of the CIFI initiative. Here, you find documents describing our methodology. 
+Welcome to the homepage of the CIFI initiative. 
 
-We aim at developing transparent approaches for analyzing governance issues based on freely and publicly available data.
+This is where the CIFI methodology lives. It is designed for transparent analyses of governance issues based on freely and publicly available data.
 
-Use the navbar to navigate to branches of the initiative which focus on particular topics:
-
+Use the navbar to navigate to branches of the initiative which focus on particular topics
 - Sovereign debt sustainability
-- Public interest in corporate governance
+- Corporate social responsibility 
 
 Link to [GROCO](groco.qmd)
