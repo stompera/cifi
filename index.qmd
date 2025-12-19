@@ -2,12 +2,14 @@
 title: "Citizenship and Finance (CIFI)"
 ---
 
-Welcome to the homepage of the CIFI initiative. 
+Welcome to the homepage of the CIFI initiative.
 
-This is where the CIFI methodology lives. It is designed for transparent analyses of governance issues based on freely and publicly available data.
+This is where the CIFI methodology lives. It is designed for transparent analyses of governance issues based on freely and publicly available data. 
 
-Use the navbar to navigate to branches of the initiative which focus on particular topics
-- Sovereign debt sustainability
-- Corporate social responsibility 
+Use the navbar to navigate to branches of the initiative which focus on particular topics, presented with some star wars/sci-fi flavor. (You'll meet the [GROCO](groco.qmd), if not the GROGU!) 
 
-Link to [GROCO](groco.qmd)
+Further topics will be added over time. The remainder of this page presents brief abstracts for each existing topic.
+
+- **Fiscal space exploration (FSE):** Methods for analyzing sovereign default risk and the sustainability of public finances. Fiscal space is a government's ability to fund new priorities while maintaining the confidence of creditors that the government can meet its obligations to them.
+
+- **Seperatist corporate governance (SCG):** Here, the title alludes to the fact that corporate governance is currently mostly based on the idea of [Friedman separation](https://www.promarket.org/2020/10/13/milton-friedman-legacy-doctrine-theorem/), - that shareholders' interest in financial value creation can be separated from other - more "public" - interests of shareholders. The branch contains methods for analyzing issues in corporate governance. If these methods are widely adopted in citizen science, SGC will one day stand for Sustainable corporate governance.
