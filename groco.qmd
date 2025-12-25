@@ -40,7 +40,7 @@ We will specify the expected dividend in terms of earnings-per-share (EPS). EPS 
 
 In reality, dividends are typically below earnings-per-share (EPS) because firms "retain" earnings. A useful benchmark result comes from thinking about a fully equity-financed firm whose earnings retention funds investments in growth opportunities in existing (rather than new) lines of business. In this case, the break-even condition reads:
 $$\bar r_{A} P=(1-b)E[EPS]+\bar g_{A}(b) P,$$ 
-where the A-subscripts highlight that the expected return and growth comes from assets like the assets-in-place supporting the existing lines of business. b is the rate of earnings retention ("plowback", (DIV-EPS)/EPS) which determines the dividend (DIV) and the capital gain (or loss) rate:
+where the A-subscripts highlight that the expected return and growth comes from assets like the assets-in-place supporting the existing lines of business. b is the rate of earnings retention ("plowback", (EPS-DIV)/EPS) which determines the dividend (DIV) and the capital gain (or loss) rate:
 $$DIV=(1-b)EPS, \bar g_{A}=b ROI,$$
 where ROI is a return-on-investment, assumed to be constant. 
 
@@ -51,7 +51,7 @@ $$\frac{E[EPS]}{P}=\frac{\bar r_{A}-b ROI}{1-b}.$$
 We next define the return on reinvested earnings as the sum of the cost of capital and some "extra" expected return, denoted as alpha:
 $$ROI=\bar r_{A}+\alpha.$$
 By substituting the expression into the previous one, we obtain the following definition of the earnings yield from plowback, - the plowback yield (PY):
-$$PY=\bar r_{A} \left(1-\frac{b}{1-b}\alpha \right).$$
+$$PY=\bar r_{A} -\frac{b}{1-b}\alpha.$$
 
 ### A benchmark stock price
 
@@ -86,7 +86,7 @@ Here is a [website](costofcapital.org) comparing the hurdle/discount rates that 
 The previous specification uses the kappa not only to account for corporate conservatism, but also for absorbing deviations of observed ROIs from hurdle rates govering firms' capital allocation processes as lower bounds for investments' expected ROIs. A higher value of kappa should, therefore, be used when ROIC appears artificially high and also when there is more variation in ROIC across business years.
 
 The parameters alpha and b can be used to more specifically model a firm's future value creation from earnings retention:
-$$EYP(b,\alpha)=(ROI_{OBS}-\kappa) \left(1-\frac{b}{1-b}\alpha\right).$$
+$$EYP(b,\alpha)=(ROI_{OBS}-\kappa) -\frac{b}{1-b}\alpha.$$
 A baseline approach would set alpha equal to kappa and use a plowback rate b equal to one minus an observed payout ratio (DIV/EPS).
 
 ### Summary
