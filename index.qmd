@@ -2,13 +2,15 @@
 title: "Citizenship and Finance (CIFI)"
 ---
 
-Welcome to the homepage of the CIFI initiative.
+Welcome to the homepage of the CIFI initiative. 
 
-This is where the CIFI methodology lives. It is designed for transparent analyses of governance issues based on freely and publicly available data. 
+This initiative aims to develop and apply a citizen science methodology focused on governance issues with a financial perspective. It prioritizes transparency and accessibility, requiring only modest data inputs, limited to freely and publicly available data sources.
 
-Use the navbar to navigate to branches of the initiative which focus on particular topics, sometimes presented with some star wars/sci-fi flavor. (You'll meet the [GROCO](groco.qmd), if not the GROGU!) 
+Use the navbar to navigate to different topics of the initiative. For regular updates, subscribe to the CIFI substack:
 
-Further topics will be added over time. The remainder of this page presents brief abstracts for each existing topic.
+<iframe src="https://cifi.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+**Topics:**
 
 - **Fiscal space exploration (FSE):** Methods for analyzing sovereign default risk and the sustainability of public finances. Fiscal space is a government's ability to fund new priorities while maintaining the confidence of creditors that the government can meet its obligations to them.
 
