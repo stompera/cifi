@@ -8,8 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: scg.qmd
-        text: SCG
+      - href: groco.qmd
+        text: GROCO
 
 format:
   html:
