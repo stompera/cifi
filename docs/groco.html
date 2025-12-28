@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alex Stomper">
-<meta name="dcterms.date" content="2025-05-12">
+<meta name="dcterms.date" content="2025-12-27">
 
 <title>CIFI Methodology for Stock Corporations: The GROCO – CIFI</title>
 <style>
@@ -128,8 +128,8 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./groco.html" aria-current="page"> 
-<span class="menu-text">GROCO</span></a>
+    <a class="nav-link" href="./scg.qmd"> 
+<span class="menu-text">SCG</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -197,7 +197,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 12, 2025</p>
+      <p class="date">December 27, 2025</p>
     </div>
   </div>
   
@@ -231,11 +231,11 @@ window.Quarto = {
 </section>
 <section id="a-benchmark" class="level3">
 <h3 class="anchored" data-anchor-id="a-benchmark">A benchmark</h3>
-<p>In reality, dividends are typically below earnings-per-share (EPS) because firms “retain” earnings. A useful benchmark result comes from thinking about a fully equity-financed firm whose earnings retention funds investments in growth opportunities in existing (rather than new) lines of business. In this case, the break-even condition reads: <span class="math display">\[\bar r_{A} P=(1-b)E[EPS]+\bar g_{A}(b) P,\]</span> where the A-subscripts highlight that the expected return and growth comes from assets like the assets-in-place supporting the existing lines of business. b is the rate of earnings retention (“plowback”, (DIV-EPS)/EPS) which determines the dividend (DIV) and the capital gain (or loss) rate: <span class="math display">\[DIV=(1-b)EPS, \bar g_{A}=b ROI,\]</span> where ROI is a return-on-investment, assumed to be constant.</p>
+<p>In reality, dividends are typically below earnings-per-share (EPS) because firms “retain” earnings. A useful benchmark result comes from thinking about a fully equity-financed firm whose earnings retention funds investments in growth opportunities in existing (rather than new) lines of business. In this case, the break-even condition reads: <span class="math display">\[\bar r_{A} P=(1-b)E[EPS]+\bar g_{A}(b) P,\]</span> where the A-subscripts highlight that the expected return and growth comes from assets like the assets-in-place supporting the existing lines of business. b is the rate of earnings retention (“plowback”, (EPS-DIV)/EPS) which determines the dividend (DIV) and the capital gain (or loss) rate: <span class="math display">\[DIV=(1-b)EPS, \bar g_{A}=b ROI,\]</span> where ROI is a return-on-investment, assumed to be constant.</p>
 </section>
 <section id="the-earings-yield-from-plowback-eyp" class="level3">
 <h3 class="anchored" data-anchor-id="the-earings-yield-from-plowback-eyp">The earings yield from plowback (EYP)</h3>
-<p>The last version of the break-even condition implies an expression for the earnings yield, - the ratio of projected earnings-per-share to the stock price: <span class="math display">\[\frac{E[EPS]}{P}=\frac{\bar r_{A}-b ROI}{1-b}.\]</span> We next define the return on reinvested earnings as the sum of the cost of capital and some “extra” expected return, denoted as alpha: <span class="math display">\[ROI=\bar r_{A}+\alpha.\]</span> By substituting the expression into the previous one, we obtain the following definition of the earnings yield from plowback, - the plowback yield (PY): <span class="math display">\[PY=\bar r_{A} \left(1-\frac{b}{1-b}\alpha \right).\]</span></p>
+<p>The last version of the break-even condition implies an expression for the earnings yield, - the ratio of projected earnings-per-share to the stock price: <span class="math display">\[\frac{E[EPS]}{P}=\frac{\bar r_{A}-b ROI}{1-b}.\]</span> We next define the return on reinvested earnings as the sum of the cost of capital and some “extra” expected return, denoted as alpha: <span class="math display">\[ROI=\bar r_{A}+\alpha.\]</span> By substituting the expression into the previous one, we obtain the following definition of the earnings yield from plowback, - the plowback yield (PY): <span class="math display">\[PY=\bar r_{A} -\frac{b}{1-b}\alpha.\]</span></p>
 </section>
 <section id="a-benchmark-stock-price" class="level3">
 <h3 class="anchored" data-anchor-id="a-benchmark-stock-price">A benchmark stock price</h3>
@@ -256,7 +256,7 @@ window.Quarto = {
 <section id="parameterization" class="level3">
 <h3 class="anchored" data-anchor-id="parameterization">Parameterization</h3>
 <p>The previous specification uses the kappa not only to account for corporate conservatism, but also for absorbing deviations of observed ROIs from hurdle rates govering firms’ capital allocation processes as lower bounds for investments’ expected ROIs. A higher value of kappa should, therefore, be used when ROIC appears artificially high and also when there is more variation in ROIC across business years.</p>
-<p>The parameters alpha and b can be used to more specifically model a firm’s future value creation from earnings retention: <span class="math display">\[EYP(b,\alpha)=(ROI_{OBS}-\kappa) \left(1-\frac{b}{1-b}\alpha\right).\]</span> A baseline approach would set alpha equal to kappa and use a plowback rate b equal to one minus an observed payout ratio (DIV/EPS).</p>
+<p>The parameters alpha and b can be used to more specifically model a firm’s future value creation from earnings retention: <span class="math display">\[EYP(b,\alpha)=(ROI_{OBS}-\kappa) -\frac{b}{1-b}\alpha.\]</span> A baseline approach would set alpha equal to kappa and use a plowback rate b equal to one minus an observed payout ratio (DIV/EPS).</p>
 </section>
 <section id="summary" class="level3">
 <h3 class="anchored" data-anchor-id="summary">Summary</h3>
