@@ -1,0 +1,69 @@
+---
+title: "Separatist Corporate Governance"
+format: html
+---
+
+# Separatist Corporate Governance
+
+## Overview
+
+Separatist Corporate Governance (SCG) is a framework for corporate structures that emphasize autonomy and separation of concerns.
+
+## Key Principles
+
+- Independence of business units
+- Clear separation of responsibilities
+- Autonomous decision-making
+- Decentralized control structures
+
+## Related Documents
+
+- [GROCO Framework](groco.qmd) - The original governance framework
+
+## Implementation
+
+SCG builds upon traditional governance models but introduces stronger separation between:
+- Strategic decision-making
+- Operational execution
+- Financial oversight
+- Risk management
+
+## Benefits
+
+1. **Enhanced Agility**: Business units can respond quickly to market changes
+2. **Improved Accountability**: Clear ownership of decisions and outcomes
+3. **Risk Isolation**: Problems in one unit don't automatically spread to others
+4. **Innovation Encouragement**: Autonomous units can experiment more freely
+
+## Challenges
+
+- Requires strong coordination mechanisms
+- Can lead to duplication of resources
+- May create silos if not properly managed
+- Requires mature governance processes
+
+## Comparison with Traditional Models
+
+| Aspect | Traditional Governance | Separatist Governance |
+|--------|----------------------|-----------------------|
+| Decision Speed | Slower | Faster |
+| Risk Exposure | Centralized | Distributed |
+| Resource Allocation | Centralized | Decentralized |
+| Innovation | Controlled | Encouraged |
+
+## Implementation Guide
+
+1. **Assessment Phase**: Evaluate current governance structure
+2. **Design Phase**: Create separation boundaries
+3. **Transition Phase**: Gradually implement autonomy
+4. **Optimization Phase**: Refine governance processes
+
+## Case Studies
+
+[Add case studies of companies implementing SCG principles]
+
+## Further Reading
+
+- [GROCO Framework](groco.qmd) - Foundational governance concepts
+- [Corporate Governance Best Practices]() - Industry standards
+- [Decentralized Organization Design]() - Structural approaches

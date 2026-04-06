@@ -6,10 +6,10 @@ website:
   title: "CIFI"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: groco.qmd
-        text: GROCO
+      - href: scg.qmd
+        text: SCG
+      - href: fse.qmd
+        text: FSE
 
 format:
   html:
